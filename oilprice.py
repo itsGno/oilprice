@@ -71,3 +71,4 @@ while True:
         response = messenger.sticker(12,1)
         print(response)
         time.sleep(4000)
+
