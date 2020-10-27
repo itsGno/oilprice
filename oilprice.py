@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup as soup
 from webdriver_manager.chrome import ChromeDriverManager
 
 while True:
-    if time.strftime("%H",time.localtime()) == '13':
+    if time.strftime("%H",time.localtime()) == '13': #wait until 13 o'clock
         options = Options()
         options.add_argument('--headless')
         options.add_argument('--disable-gpu')  # Last I checked this was necessary.
